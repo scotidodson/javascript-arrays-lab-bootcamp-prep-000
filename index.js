@@ -40,6 +40,6 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  var removeMilo = kittens.slice(1)
+  var removeMilo = kittens.slice(1);
   return removeMilo;
 }
