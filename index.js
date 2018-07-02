@@ -34,8 +34,9 @@ function prependKitten(name) {
   return newArray;
 }
 
-function removeLastKitten(index) {
+function removeLastKitten() {
   var removeGarfield = kittens.slice(0, kittens.length - 1);
   return removeGarfield;
 }
+
 
