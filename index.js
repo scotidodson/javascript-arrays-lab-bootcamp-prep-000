@@ -24,18 +24,3 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-function appendKitten(name) {
-  var newArray = kittens.concat(`${name}`);
-  return newArray;
-}
-
-function prependKitten(name) {
-  var nameArray = [`${name}`];
-  var newArray = nameArray.concat(kittens);
-  return newArray;
-}
-
-function removeLastKitten() {
-  var newArray = kittens.splice(0, kittens-length - 1);
-  return newArray;
-}
